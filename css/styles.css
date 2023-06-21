@@ -462,6 +462,7 @@ p {
 
 /* FOOTER */
 footer {
+  width: 100vw;
   padding: 2em 0;
   display: flex;
   flex-direction: column;
@@ -471,8 +472,10 @@ footer {
 }
 
 footer i {
+  cursor: pointer;
   color: #FFF;
   font-size: 1em;
+  margin: 0.5em;
   padding: 0.5em;
   background-color: #53316D;
   border-radius: 5px;
@@ -485,5 +488,5 @@ footer i {
 footer .social-links ul {
   margin-top: 1em;
   display: flex;
-  gap: 1.5em;
+  align-items: center;
 }
