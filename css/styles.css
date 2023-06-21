@@ -61,7 +61,7 @@ p {
 }
 
 .shadow-txt {
-    color: #353434;
+    color: #929191;
 }
 
 /* HEADER */
@@ -379,52 +379,52 @@ p {
 }
 
 #pt1 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/1.png");
+  background:url("../imgs/1.png");
   background-position: center center;
   background-size: cover;
 }
 #pt2 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/2.png");
+  background: url("../imgs/2.png");
   background-position: center center;
   background-size: cover;
 }
 #pt3 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/3.png");
+  background:url("../imgs/3.png");
   background-position: center center;
   background-size: cover;
 }
 #pt4 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/4.png");
+  background:url("../imgs/4.png");
   background-position: center center;
   background-size: cover;
 }
 #pt5 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/5.png");
+  background:url("../imgs/5.png");
   background-position: center center;
   background-size: cover;
 }
 #pt6 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/6.png");
+  background:url("../imgs/6.png");
   background-position: center center;
   background-size: cover;
 }
 #pt7 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/7.png");
+  background:url("../imgs/7.png");
   background-position: center center;
   background-size: cover;
 }
 #pt8 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/8.png");
+  background: url("../imgs/8.png");
   background-position: center center;
   background-size: cover;
 }
 #pt9 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/9.png");
+  background:url("../imgs/9.png");
   background-position: center center;
   background-size: cover;
 }
 #pt10 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imgs/10.png");
+  background:url("../imgs/10.png");
   background-position: center center;
   background-size: cover;
 }
