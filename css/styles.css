@@ -28,6 +28,7 @@ h2 {
     font-weight: 300;
     text-transform: capitalize;
     font-size: 2em;
+    text-align: center;
 }
 
 h3 {
@@ -177,7 +178,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    margin-bottom: 1em;
 }
 
 .mySlides {
@@ -283,7 +284,7 @@ p {
   text-align: center;
 }
 
-#about-me .mobile-version .bars {
+#about-me .bars {
   width: 100%;
   padding: 0 1em;
   display: flex;
@@ -292,7 +293,7 @@ p {
   gap: 5px;
 }
 
-#about-me .mobile-version .bar1 {
+#about-me .bar1 {
   background-color: #321B44;
   height: 5px;
   width: 100%;
@@ -303,7 +304,7 @@ p {
   -o-border-radius: 15px;
 }
 
-#about-me .mobile-version .bar2 {
+#about-me .bar2 {
   background-color: #321B44;
   height: 5px;
   width: 80%;
@@ -314,12 +315,12 @@ p {
   -o-border-radius: 15px;
 }
 
-#about-me .mobile-version .right i {
+#about-me i {
   font-size: 6em;
   color: #53316D;
 }
 
-#about-me .mobile-version .bottom p {
+#about-me p {
   text-align: justify;
   background-color: #161224;
   padding: 1em;
@@ -331,6 +332,12 @@ p {
   -o-border-radius: 15px;
 }
 
+#about-me .mid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
 #about-me .desk-version {
   display: none;
 }
@@ -338,7 +345,6 @@ p {
 /* PAINTS */
 #paintings {
   height: fit-content;
-  width: 90vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -443,8 +449,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 40vw;
-  height: 10vh;
   font-size: 1.2em;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -459,6 +463,10 @@ p {
   -o-border-radius: 15px;
 }
 
+#wr1, #wr2, #wr3, #wr4, #wr5, #wr6 {
+  width: 40vw;
+  height: 10vh;
+}
 
 /* FOOTER */
 footer {
@@ -489,4 +497,274 @@ footer .social-links ul {
   margin-top: 1em;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 700px) {
+
+  h1 {
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+  
+  #header .container .right {
+    background: none;
+  }
+
+  #header {
+    background: url("../imgs/HeroBig.png");
+    background-size:cover;
+    background-position: center center;
+  }
+
+  #nav .container ul li .indicator .indi-1 {
+    height: 4px;
+    width: 40px;
+  }
+  #nav .container ul li .indicator .indi-2 {
+    height: 4px;
+    width: 40px;
+  }
+
+  #about-me .mobile-version {
+    display: none;
+  }
+
+  #about-me .desk-version {
+    display: block;
+  }
+
+  #about-me .desk-version .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #about-me .desk-version .container .left  {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-me .desk-version .container .mid {
+    margin: 0 4em;
+  }
+
+  #about-me p {
+    font-size: 1.2em;
+    width: 60%;
+  }
+
+  .paint {
+    height: 25vh;
+  }
+
+  #paintings .container .row1, #paintings .container .row2, #paintings .container .row3, #paintings .container .row4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #pt1, #pt6 {
+    width: 25vw;
+  }
+
+  #pt2, #pt7 {
+    width: 60vw;
+  }
+
+  #pt3, #pt4, #pt5, #pt8, #pt9, #pt10 {
+    width: 27.5vw;
+  }
+  
+  #writings .container .row1, #writings .container .row2, #writings .container .row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #writings .container .writing {
+    height: 7vh;
+  }
+
+  #wr1, #wr2, #wr3, #wr4 {
+    width: 20vw;
+  }
+
+  #wr5 {
+    width: 50vw;
+  }
+
+  #wr6 {
+    width: 87vw;
+  }
+
+}
+
+@media (min-width: 1100px) {
+
+  .paint {
+    height: 30vh;
+  }
+
+  #about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-me .container {
+    margin: 0 3.4em ;
+  }
+
+  .desk-version .container .left h2 {
+    font-size: 3em;
+    width: 99%;
+  }
+
+  
+  #about-me .bar1 {
+    height: 10px;
+    width: 80%;
+  }
+
+  #about-me .bar2 {
+    height: 10px;
+    width: 50%;
+  }
+
+  #about-me p {
+    font-size:1.3em;
+    width: 50%;
+  }
+
+  #about-me i {
+    font-size: 5em;
+  }
+}
+
+@media(min-width: 1600px) {
+  body {
+    overflow-x: hidden;
+  }
+  #header {
+    height: 80vh;
+  }
+
+  #header .container .left {
+    margin-left: 7em;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 8em;
+    width: 50%;
+  }
+
+  p {
+    font-size: 1.8em;
+  }
+
+  #nav .container {
+    margin: 1.2em 18em;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+
+  #nav .container ul li .indicator .indi-2 {
+    height: 6px;
+    width: 52px;
+  }
+  #nav .container ul li .indicator .indi-1 {
+    height: 6px;
+    width: 52px;
+  }
+
+  #quotes {
+    height: 35vh;
+  }
+
+  .content {
+    padding: 4em 6em;
+  }
+
+  .content h4 {
+    font-size: 3em;
+  }
+
+  .prev, .next {
+    font-size: 2.5em;
+  }
+
+  #about-me {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-me .container {
+    margin: 0 3.4em ;
+  }
+
+  .desk-version .container .left h2 {
+    font-size: 5em;
+    width: 99%;
+  }
+
+  
+  #about-me .bar1 {
+    height: 10px;
+    width: 80%;
+  }
+
+  #about-me .bar2 {
+    height: 10px;
+    width: 50%;
+  }
+
+  #about-me p {
+    font-size:2em;
+    width: 50%;
+  }
+
+  #about-me i {
+    font-size: 10em;
+  }
+
+  .paint {
+    height: 60vh;
+  }
+
+  #writings .container .writing {
+    height: 15vh;
+  }
+
+  #wr1, #wr2, #wr3, #wr4 {
+    width: 25vw;
+  }
+
+  #wr5 {
+    width: 60vw;
+  }
+
+  #wr6 {
+    width: 92vw;
+  }
+  
+  footer i {
+    font-size: 1.7em;
+  }
 }
